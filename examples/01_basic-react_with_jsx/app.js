@@ -1,5 +1,10 @@
 function Hello() {
-  return <div>Hello to jsx</div>;
+  return (
+    <div>
+      <div>Hello to jsx</div>
+      <p>This is paragraph</p>
+    </div>
+  );
 }
 
 const rootNode = document.getElementById('root');
