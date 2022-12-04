@@ -20,6 +20,11 @@ Date 30/11/2022
 ### 003_counter
 * Use useState to save to show the component state 
 
+### 004_conditional_render
+* show different method for conditional rendering
+
+### 005_children
+* example for using component with render
 
 ### homework
 * disable the minus button of the counter with it 0
