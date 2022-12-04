@@ -26,8 +26,12 @@ Date 30/11/2022
 ### 005_children
 * example for using component with render
 
+### 006_onChange
+* show how to use on change with useState to show input value dynamic change
+
 ### homework
 * disable the minus button of the counter with it 0
+* bonus exercise build and app for multiple search engines
 
 # Links
 [Course Repo](https://github.com/bk-software/hu-react-redux)
