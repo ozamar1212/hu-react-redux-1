@@ -2,10 +2,12 @@ import { useState } from 'react';
 
 function Counter() {
   const [counter, setCounter] = useState(0);
+  console.log('counter is rendering');
 
   function increment() {
-    setCounter(counter + 1);
-    console.log('increment', counter);
+    const newCounter = counter + 1;
+    setCounter(newCounter);
+    console.log('increment', newCounter);
   }
 
   return (
