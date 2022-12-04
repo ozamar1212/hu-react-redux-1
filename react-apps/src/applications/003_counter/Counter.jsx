@@ -10,9 +10,15 @@ function Counter() {
     console.log('increment', newCounter);
   }
 
+  function decrement() {
+    const newCounter = counter - 1;
+    setCounter(newCounter);
+  }
+
   return (
     <div>
       <button onClick={increment}>+</button>
+      <button onClick={decrement}>-</button>
       <h2>{counter}</h2>
     </div>
   );
