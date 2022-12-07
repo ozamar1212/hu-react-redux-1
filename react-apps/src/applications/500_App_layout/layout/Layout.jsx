@@ -1,11 +1,12 @@
 import Header from './header/Header';
 import Footer from './footer/Footer';
+import Main from './main/Main';
 
 function Layout({ children }) {
   return (
     <div>
       <Header />
-      {children}
+      <Main>{children}</Main>
       <Footer />
     </div>
   );
