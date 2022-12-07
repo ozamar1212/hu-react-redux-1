@@ -63,6 +63,13 @@ function Router() {
   );
 }
 ```
+
+### 501_App_layout_with_MUI
+* Install MUI 
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+* Add MUI components to the Header and Footer
 # Links
 
 [Course Repo](https://github.com/bk-software/hu-react-redux)
