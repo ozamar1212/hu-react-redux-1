@@ -77,3 +77,5 @@ npm install @mui/material @emotion/react @emotion/styled
 [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 [Codesandbox - online development idea](https://codesandbox.io/)
+[MUI Colors palette](https://mui.com/material-ui/customization/palette/)
+[MUI Templates examples](https://mui.com/material-ui/getting-started/templates/)
