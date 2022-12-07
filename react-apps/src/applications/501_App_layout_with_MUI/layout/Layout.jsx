@@ -6,7 +6,14 @@ import Box from '@mui/material/Box';
 
 function Layout({ children }) {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+        backgroundColor: '#e3f2fd',
+      }}
+    >
       <CssBaseline />
       <Header />
       <Main>{children}</Main>
