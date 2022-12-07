@@ -33,7 +33,17 @@ Date 30/11/2022
 * disable the minus button of the counter with it 0
 * bonus exercise build and app for multiple search engines
 
+Date 7/12/2022
+### 007_onChange_with_button
+* change state with button click
+
+## Real App Design
+### 500_App_layout
+* build basic app layout
+
 # Links
 [Course Repo](https://github.com/bk-software/hu-react-redux)
 
 [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Codesandbox - online development idea](https://codesandbox.io/)
