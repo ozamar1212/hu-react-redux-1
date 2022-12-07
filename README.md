@@ -41,7 +41,30 @@ Date 7/12/2022
 ### 500_App_layout
 * build basic app layout
 
+### Homework
+### homework
+* Build an App template with 3 pages  page1, page2, page3 Header, Footer and Main
+* add Router component in the App component with 3 buttons 
+* pressing the buttons will show the right page
+
+```react
+function Router() {
+  function PagesView() {
+    return <AboutPage />;
+  }
+
+  return (
+    <div>
+      <button>Page1</button>
+      <button>Page2</button>
+      <button>Page3</button>
+      <PagesView />
+    </div>
+  );
+}
+```
 # Links
+
 [Course Repo](https://github.com/bk-software/hu-react-redux)
 
 [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
