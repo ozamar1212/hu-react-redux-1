@@ -98,3 +98,15 @@ Bonus
 [Codesandbox - online development idea](https://codesandbox.io/)
 [MUI Colors palette](https://mui.com/material-ui/customization/palette/)
 [MUI Templates examples](https://mui.com/material-ui/getting-started/templates/)
+[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+### installations
+
+#### react mui
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+#### react router
+```bash
+npm install react-router-dom
+```
