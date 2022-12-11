@@ -1,5 +1,11 @@
+import Layout from '../layout/Layout';
+
 function AboutPage() {
-  return <div>About My app</div>;
+  return (
+    <Layout>
+      <div>About My app</div>
+    </Layout>
+  );
 }
 
 export default AboutPage;
