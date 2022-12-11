@@ -76,6 +76,11 @@ Date 11/12/2022
 ### Solve Homework router version 1
 ### Solve Homework router version 2
 
+### Add react router
+* Add react router v6.4
+* add Link to pages
+* add Navlinks to App Navbar
+
 ### Homework
 * Create a game to choose number between 0 - 99 
 * The program will choose number randomly.
