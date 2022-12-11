@@ -56,8 +56,85 @@ Date 30/11/2022
 
 -
 
+Date 7/12/2022
+### 007_onChange_with_button
+* change state with button click
+
+## Real App Design
+### 500_App_layout
+* build basic app layout
+
+### Homework
+* Build an App template with 3 pages  page1, page2, page3 Header, Footer and Main
+* add Router component in the App component with 3 buttons 
+* pressing the buttons will show the right page
+
+```react
+function Router() {
+  function PagesView() {
+    return <AboutPage />;
+  }
+
+  return (
+    <div>
+      <button>Page1</button>
+      <button>Page2</button>
+      <button>Page3</button>
+      <PagesView />
+    </div>
+  );
+}
+```
+
+### 501_App_layout_with_MUI
+* Install MUI 
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+* Add MUI components to the Header and Footer
+
+
+Date 11/12/2022
+
+### Solve Homework router version 1
+### Solve Homework router version 2
+
+### Add react router
+* Add react router v6.4
+* add Link to pages
+* add Navlinks to App Navbar
+
+### Homework
+* Create a game to choose number between 0 - 99 
+* The program will choose number randomly.
+  Math.floor(Math.random() * 100);
+
+* Your number is high
+* Your number is low
+* YOU WON <button>Play Again<button>
+
+Bonus
+* Create codesandbox and put the code there.
+
+
 # Links
 
 [Course Repo](https://github.com/bk-software/hu-react-redux)
 
 [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Codesandbox - online development idea](https://codesandbox.io/)
+[MUI Colors palette](https://mui.com/material-ui/customization/palette/)
+[MUI Templates examples](https://mui.com/material-ui/getting-started/templates/)
+[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+### installations
+
+#### react mui
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+#### react router
+```bash
+npm install react-router-dom
+```

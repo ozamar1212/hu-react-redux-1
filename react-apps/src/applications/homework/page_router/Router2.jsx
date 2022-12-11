@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { useState } from "react";
+=======
+import { useState } from 'react';
+>>>>>>> 9f2acae9f6cde64da64260e41f649d1c8f43d2a6
 
 function Page1() {
   return (
@@ -20,6 +24,7 @@ function Page2() {
 
 const routes = [
   {
+<<<<<<< HEAD
     id: "0",
     name: "Page1",
     page: <Page1 />,
@@ -27,6 +32,15 @@ const routes = [
   {
     id: "1",
     name: "Page2",
+=======
+    id: '0',
+    name: 'Page1',
+    page: <Page1 />,
+  },
+  {
+    id: '1',
+    name: 'Page2',
+>>>>>>> 9f2acae9f6cde64da64260e41f649d1c8f43d2a6
     page: <Page2 />,
   },
 ];
@@ -35,7 +49,11 @@ function Router2() {
   const [pageId, setPageId] = useState(0);
 
   function showPage(event) {
+<<<<<<< HEAD
     const newPageId = event.target.getAttribute("page-id");
+=======
+    const newPageId = event.target.getAttribute('page-id');
+>>>>>>> 9f2acae9f6cde64da64260e41f649d1c8f43d2a6
     setPageId(newPageId);
   }
 
