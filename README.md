@@ -42,7 +42,6 @@ Date 7/12/2022
 * build basic app layout
 
 ### Homework
-### homework
 * Build an App template with 3 pages  page1, page2, page3 Header, Footer and Main
 * add Router component in the App component with 3 buttons 
 * pressing the buttons will show the right page
@@ -70,6 +69,26 @@ function Router() {
 npm install @mui/material @emotion/react @emotion/styled
 ```
 * Add MUI components to the Header and Footer
+
+
+Date 11/12/2022
+
+### Solve Homework router version 1
+### Solve Homework router version 2
+
+### Homework
+* Create a game to choose number between 0 - 99 
+* The program will choose number randomly.
+  Math.floor(Math.random() * 100);
+
+* Your number is high
+* Your number is low
+* YOU WON <button>Play Again<button>
+
+Bonus
+* Create codesandbox and put the code there.
+
+
 # Links
 
 [Course Repo](https://github.com/bk-software/hu-react-redux)
